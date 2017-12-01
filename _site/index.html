@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Entity Converter</title>
+	<link rel="stylesheet" href="source/css/main.css">
+</head>
+<body>
+
+	<section role="main" class="content">
+
+		<h2 class="post-title">Entity Converter</h2>
+		<article>
+			<p>Aplicativo para conversão de caracteres especiais em códigos correspondentes para uso em CSS ou javascript. Cole no campo abaixo o caractere desejado ou o código decimal correspondente para ver como usá-lo em seu site/app.</p>
+			<link rel="stylesheet" href="/apps/entity-converter/source/css/main.css">
+			<script src="/apps/entity-converter/source/js/main.js"></script>
+			<div class="body" style="height:auto;width:auto;">
+				<section>
+				<div class="inline-control">
+					<p>Type decimal code or paste the character (and press Enter):</p>
+				</div>
+				<div class="inline-control">
+					<input class="input" type="text" placeholder="&#128291; (or code)" name="char" autofocus>
+				</div>
+				</section>
+				
+				<div class="output"></div>
+			</div>
+		</article>
+		<div id="disqus_thread" style="margin-top:3em;"></div>
+		<script type="text/javascript">
+			var disqus_shortname = 'johnylab';
+			(function() {
+				var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+				dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+				(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+			})();
+		</script>
+		<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+	</section>
+
+	<script src="source/js/main.js"></script>
+	
+</body>
+</html>
