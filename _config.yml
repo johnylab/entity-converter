@@ -1,0 +1,15 @@
+---
+title: Johnylab's Entity Converter
+timezone: America/Sao_Paulo
+description: Convert character through web dev formats
+baseurl: "/entity-converter"
+url: http://johnylab.net
+markdown: kramdown
+sass:
+  style: compressed
+exclude:
+- node_modules
+- desktop.ini
+- gulpfile.js
+- npm-debug.log
+- package.json
